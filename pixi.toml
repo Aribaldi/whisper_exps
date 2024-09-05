@@ -13,7 +13,7 @@ cuda = "12"
 
 
 [tasks]
-test_imports = "python test_imports.py"
+test_imports = "python src/test_imports.py"
 
 
 [target.linux-64.activation]
@@ -63,7 +63,7 @@ nemo-toolkit = {version = "==2.0.0rc1", extras = ["asr"]}
 
 
 [feature.main.tasks]
-main_translate = "python main_test_translate.py"
+main_translate = "python src/main_test_translate.py"
 
 
 [feature.custom.dependencies]
@@ -83,7 +83,7 @@ whisperx = {git = "https://github.com/m-bain/whisperx.git"}
 
 
 [feature.custom.tasks]
-custom_translate = "python custom_test_translate.py"
+custom_translate = "python src/custom_test_translate.py"
 
 
 [environments]
