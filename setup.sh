@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH='/home/iref/Repos/asr-pet/asr-pet/.pixi/envs/custom/lib/python3.11/site-packages/nvidia/cublas/lib:/home/iref/Repos/asr-pet/asr-pet/.pixi/envs/custom/lib/python3.11/site-packages/nvidia/cudnn/lib'
